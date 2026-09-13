@@ -4,7 +4,7 @@ import { Controller,Get } from '@nestjs/common';
 export class TicketsController {
     @Get() 
     findAll(){
-        return [] ;
+        return[];
     }
 
 }
